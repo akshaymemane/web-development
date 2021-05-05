@@ -1,0 +1,30 @@
+html,body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    /* height: 100vh; */
+}
+
+.filter{
+    /* height: 30%; */
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.product-list{
+    /* height: 70%; */
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.prod-img{
+    max-width: 200px;
+    max-height: 250px;
+}
