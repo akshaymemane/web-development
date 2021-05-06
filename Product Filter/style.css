@@ -3,28 +3,76 @@ html,body{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* height: 100vh; */
 }
 
 .filter{
     /* height: 30%; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 10px;
+}
+
+h1{
+    color: firebrick;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.searchbar{
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 .product-list{
     /* height: 70%; */
     display: flex;
-    justify-content: space-around;
-    border: 1px solid black;
-    margin: 10px;
+    justify-content: start;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    /* margin: 10px; */
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product{
+    padding: 10px;
 }
 
 .prod-img{
     max-width: 200px;
     max-height: 250px;
+}
+
+.price{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.old-amt{
+    color: darkred;
+}
+
+.amt{
+    color: darkgreen;
+}
+
+.btn{
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: orange;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.btn:focus{
+    background-color: deeppink;
+}
+
+.filter-wrapper{
+    padding: 10px;
 }
